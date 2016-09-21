@@ -76,7 +76,7 @@ function getNextRandomWord($words_array, $number = default_value)
             $index = rand(0, $size - 1);
         }
 
-        $generated_password .= str_replace("'", "", $words_array[$index]);
+        $generated_password .= $words_array[$index];
 
         if ($i < ($number-1)) {
             $generated_password .= '-';
