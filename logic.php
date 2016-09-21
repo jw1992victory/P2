@@ -38,7 +38,6 @@ foreach($_POST as $key=>$value) {
                 unset($notice);
             } else {
                 $error = 'Please provide a valid number great than 0 less than 10';
-                return;
             }
         }
     } else if ($key == 'contain_number') {
