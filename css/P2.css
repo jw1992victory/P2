@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+.result {
+    background-color: antiquewhite;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.password {
+    font-size: 3em;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    display: inline-block;
+    line-height: normal;
+    margin-top: 15px;
+    text-transform: lowercase;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.button {
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    padding: 10px 10px;
+}
+
+.error {
+    color: crimson;
+    margin: 20px 0px 10px 0px;
+    font-size: 1.5em;
+}
+
+.notice {
+    color: grey;
+    margin: 10px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+img {
+    margin-top: 30px;
+}
